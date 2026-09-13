@@ -1,16 +1,67 @@
-# React + Vite
+# CampusPlane
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> AI-powered placement intelligence platform for modern campus recruitment.
 
-Currently, two official plugins are available:
+CampusPlane is a placement platform designed to bring student evaluation, job matching, skill assessment, eligibility, and recruiter workflows into one centralized experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+[Visit CampusPlane](https://campusplane-ai-placement-platform.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+### 📄 AI Resume Audit
+Analyze candidate resumes and extract relevant skills, projects, and experience to create structured candidate insights.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 🎯 JD Matcher
+Compare candidate profiles with job descriptions to identify relevant skills and overall job alignment.
+
+### 🧠 AI Skill Assessment
+Evaluate candidate skills through structured assessments designed around the requirements of specific opportunities.
+
+### 🏢 TPO & Recruiter Desk
+Provide placement teams and recruiters with a centralized workspace for candidate insights and placement workflows.
+
+### 1️⃣ 1-Student-1-Offer Rule
+Support placement workflows with a structured approach to offer allocation and student eligibility.
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lenis
+- Lucide React
+
+## 🎯 Project Goal
+
+The goal of CampusPlane is to make campus recruitment more structured, transparent, and data-driven.
+
+Instead of treating placement as a simple list of companies and job openings, CampusPlane focuses on the complete workflow around:
+
+- Candidate evaluation
+- Resume analysis
+- Job matching
+- Skill assessment
+- Eligibility
+- Recruiter workflows
+- Offer management
+
+## 📸 Preview
+
+_Add project screenshots here._
+
+## 🏗️ Current Status
+
+CampusPlane is actively under development.
+
+The current version focuses on the product interface, placement workflows, and core platform experience. More functionality and integrations are planned as development continues.
+
+## 💻 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/morrishm/campusplane-ai-placement-platform.git
