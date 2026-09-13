@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@source "../";
+
+@theme {
+  --color-canvas: #f8fafc;
+  --color-surface: #ffffff;
+  --color-border-subtle: #e2e8f0;
+
+  --color-ink-primary: #0f172a;
+  --color-ink-muted: #64748b;
+
+  /* Original Crisp Orange */
+  --color-brand: #f97316;
+  --color-brand-hover: #ea580c;
+  --color-brand-subtle: #fff7ed;
+  --color-brand-border: #fed7aa;
+
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Subtle grid line utility */
+.bg-grid-pattern {
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 24px 24px;
+}
